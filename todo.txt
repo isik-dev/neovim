@@ -1,0 +1,1 @@
+- [ ] integrate yank with os clipboard
