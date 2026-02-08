@@ -1,0 +1,27 @@
+# Index
+The lookup index of everything I've learned and built within this repo.
+----------------------------------------------------------------------
+- gd
+- lsp
+----------------------------------------------------------------------
+
+# Contents
+Notes about my understanding of commands, technical features, basically, whats and whys of neovim as well as vim.
+----------------------------------------------------------------------
+### gd
+- The built-in `gd` command stands for "go to local declaration". It is a simple text-based search, which looks backwards from the cursor and finds the first occurance.
+- It has no understanding of Python syntax, scope, or imports.
+- It is not truly "go to definition" - just "go to first match"
+
+
+### lsp
+- Language Server Protocol, is a communication protocol between an editor, i.e. client, (like neovim) and a language-aware program, like pyright.
+- The server runs as a background process because: it needs to parse and index the entire project, maintain in-memory model of the codebase, watches for file changes and updates its understanding, this is too heavy/slow to do on every keypress.
+- Neovim has a built-in lsp client, so we just need to install a language server (an external program) and tell Neovim to start it and connect to it.
+- List of LSP servers:
+  - There's no "official" list since LSP is a protocol anyone can implement, but the main resources are these!
+  - [Microsoft's list](https://microsoft.github.io/language-server-protocol/implementors/servers/)
+  - [nvim-lspconfig's list](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md)
+
+-----
+

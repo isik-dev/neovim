@@ -1,1 +1,2 @@
-- [ ] integrate yank with os clipboard
+- [x] integrate yank with os clipboard
+- [ ] make `gd` command work globally within a repo, i.e. with several files.
