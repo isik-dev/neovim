@@ -1,6 +1,7 @@
 # Index
 The lookup index of everything I've learned and built within this repo.
 ----------------------------------------------------------------------
+- init
 - gd
 - lsp
 ----------------------------------------------------------------------
@@ -8,6 +9,10 @@ The lookup index of everything I've learned and built within this repo.
 # Contents
 Notes about my understanding of commands, technical features, basically, whats and whys of neovim as well as vim.
 ----------------------------------------------------------------------
+### init
+- Just discovered that to make this config work in an environment where neovim had already been installed, we need to delete former plugins, libs, and etc.:
+  - `rm -rf ~/.local/share/nvim`
+
 ### gd
 - The built-in `gd` command stands for "go to local declaration". It is a simple text-based search, which looks backwards from the cursor and finds the first occurance.
 - It has no understanding of Python syntax, scope, or imports.

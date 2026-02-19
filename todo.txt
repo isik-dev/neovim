@@ -1,2 +1,14 @@
 - [x] integrate yank with os clipboard
-- [ ] make `gd` command work globally within a repo, i.e. with several files.
+- [x] make `gd` command work globally within a repo, i.e. with several files.
+- [ ] discovered that changes after `03afa45`, resulted in degregated speed in work M4 device.
+	- thing only applies to repos like market | batch. With smaller repos, speed is not exploited.
+	- first symptom: when opening a certain file, `nvim main.py` and try doing `hjkl` the neovim doesn't respond for 3~30 secs.
+	- second symptom: after viewing or editing a file and trying to save quite or just quit, `:wq or :q`, neovim doesn't respond for a noticeable amount of time.
+	- lastly, when running `nvim`, i get this messages down below:
+	```bash
+	# Plugin Updates
+	- **mason-lspconfig.nvim**
+	- **lazy.nvim**
+	- **nvim-lspconfig**
+	Press ENTER or type command to continue
+	```
