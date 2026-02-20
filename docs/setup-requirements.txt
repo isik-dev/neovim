@@ -1,0 +1,6 @@
+## Initial setup
+- `rm -rf ~/.local/share/nvim` # cleanup old neovim configs/deps
+
+## External dependencies you must have
+- rg # ripgrep `which rg` -> `brew install rg`
+- fd # fast and user-friendly version of `find` -> `brew install fd`

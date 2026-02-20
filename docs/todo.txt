@@ -13,4 +13,4 @@
 	Press ENTER or type command to continue
 	```
 - [x] figure out a way to handle keymaps cleanly, as a test -> map `Esc` to `jk`
-- [ ] add a solution to search for files & text within a workspace, e.g. telescope
+- [x] add a solution to search for files & text within a workspace, e.g. telescope
