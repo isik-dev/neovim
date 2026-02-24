@@ -39,6 +39,7 @@
                                         vim.keymap.set("n", "gd", vim.lsp.buf.definition, {
                                                 buffer = args.buf
                                         })
+					vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, { buffer = args.buf })
                                 end,
                         })
                 end,

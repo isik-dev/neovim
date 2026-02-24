@@ -5,6 +5,7 @@ The lookup index of everything I've learned and built within this repo.
 - gd
 - lsp
 - importance of "file watching"
+- LSP diagnostic display
 ----------------------------------------------------------------------
 
 # Contents
@@ -58,5 +59,8 @@ Notes about my understanding of commands, technical features, basically, whats a
     "pythonVersion": "3.11"
   }
   ```
+
+### LSP diagnostic display
+- vim, by default has access to diagnostic and we can configure how to manage it through `vim.diagnostic.config()`. To display rich message of a warning/error in neovim, I mapped a key to trigger vim.diagnostic.open_float() and added to lsp.lua during LSPAttach.
 -----
 

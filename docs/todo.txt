@@ -14,3 +14,4 @@
 	```
 - [x] figure out a way to handle keymaps cleanly, as a test -> map `Esc` to `jk`
 - [x] add a solution to search for files & text within a workspace, e.g. telescope
+- [x] figure out a way to see warning/error, basically the wiggly lines in the editor, right now we can see the underline
