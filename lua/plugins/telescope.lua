@@ -8,7 +8,16 @@ return {
     },
     config = function()
 	    -- telescope setup goes here
-	    require("telescope").setup({})
+	    require("telescope").setup({
+		    defaults = {
+			    file_ignore_patterns = { "%.git/" }
+		    },
+		    pickers = {
+			    find_files = {
+				    hidden = true
+			    }
+		    }
+	    })
 	    -- load fzf extension here
 	    require("telescope").load_extension("fzf")
     end,
