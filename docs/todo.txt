@@ -18,5 +18,6 @@
 - [x] make file/code aware UI. now, when i open neovim and then open a file, the coloring is same regardless of whether the file is python, txt, or a markdown. 
 - [x] dotfiles are currently invisible when searching for files in telecope, we should add it.
 - [x] when doing <fs>, i.e. search for a string, dotfiles aren't being inlcuded.
+- [ ] integrate markdown preview feature into neovim (research the options)
 - [ ] in a git repo, when i change a file i would like to see what lines of code have been edited, an indicator or a color change or some sort of a sign on the left line number column.
 - [ ] add a solution to work with git easier in terminal. Current issue: whenever there's a merge conflict, i find it hard to resolve it in terminal - and refer to vscode. I would like to have an ability of moving around git seemlessly in command line.
