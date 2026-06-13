@@ -4,7 +4,7 @@ return {
   keys = {
 	{ "<leader>mp", "<cmd>MarkdownPreviewToggle<cr>", desc = "Markdown Preview" }
   },
-  build = "cd app && npx --yes yarn install",
+  build = "cd app && npm install",
   init = function()
     vim.g.mkdp_filetypes = { "markdown" }
   end,
